@@ -39,7 +39,7 @@ const Sign = () =>{
 					  		</div>
 					  	</div>
 				  		<div className="register_container">
-				  			<IonButton className="register_button" type="submit" expand="block">Sign Upp</IonButton>
+				  			<IonButton className="register_button" type="submit" expand="block">Sign Up</IonButton>
 				  		</div>
 					</form>
 		      	</IonContent>
