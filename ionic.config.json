@@ -1,0 +1,7 @@
+{
+  "name": "reportMobileApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
