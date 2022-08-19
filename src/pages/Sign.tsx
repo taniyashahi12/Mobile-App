@@ -1,4 +1,3 @@
-import react from 'react';
 import './Global.css';
 import { IonIcon, IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonInput } from '@ionic/react';
 

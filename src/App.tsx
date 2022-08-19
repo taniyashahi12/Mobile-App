@@ -3,6 +3,7 @@ import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Login from './pages/Login';
 import Sign from './pages/Sign';
+import Splash from './pages/Splash';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -26,6 +27,7 @@ import '../src/pages/Global.css';
 setupIonicReact();
 
 const App: React.FC = () => (
+ 
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
@@ -36,7 +38,7 @@ const App: React.FC = () => (
           <Sign />
         </Route>
         <Route exact path="/">
-          <Redirect to="/Login" />
+          <Splash />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

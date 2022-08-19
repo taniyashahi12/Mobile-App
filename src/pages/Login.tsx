@@ -1,6 +1,5 @@
-import react from 'react';
 import './Global.css';
-import { IonButton, IonInput, IonPage, IonImg, IonContent } from '@ionic/react';
+import { IonButton, IonInput, IonPage, IonImg } from '@ionic/react';
 
 const Login = () =>{
 	return(
