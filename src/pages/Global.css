@@ -29,12 +29,25 @@
 a{
   text-decoration: none;
 }
+/*Splash*/
+.bg_color{
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splash_img{
+  width: 80px;
+}
 /*Login*/
 .back-icon{
   font-size: 20px;
 }
 .header_heading{
   display: flex;
+  padding-bottom: 20px;
 }
 .header_heading a {
     line-height: 0px;
@@ -100,9 +113,8 @@ a{
   --background: #0869AE;
 }
 /*Sign*/
-ion-icon {
-  font-size: 30px;
-  color: #000;
+.full_width{
+  width: 100%;
 }
 .flex-container{
   display: flex;
@@ -117,6 +129,10 @@ ion-icon {
 .padding-all {
     padding: 40px 20px;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .label_name{
   font-size: 12px;

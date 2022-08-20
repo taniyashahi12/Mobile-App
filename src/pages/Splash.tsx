@@ -1,17 +1,16 @@
 import React, {useEffect} from 'react';
 import './Global.css';
-import { IonPage } from '@ionic/react';
-import { SplashScreen } from '@capacitor/splash-screen';
+import { IonPage, IonImg } from '@ionic/react';
 
 const Splash = ({}) => {
 	useEffect(() => {
  	 const timer = setTimeout(() => window.location.href ="/Login"
-, 5000);
+, 1000);
 	}, []);
 	return(
 		<IonPage>
-			<div>
-				test
+			<div className="bg_color">
+				<IonImg className="splash_img" src='./assets/images/kuroit-logo.png' />
 			</div>
 		</IonPage>
 		);
