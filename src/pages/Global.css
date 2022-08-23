@@ -65,7 +65,7 @@ a{
   width: 50px;
 }
 .container-padding{
-  padding: 80px 40px 80px 40px;
+  padding: 40px 40px 40px 40px;
   display: flex;
     width: 100%;
     flex-direction: column;
@@ -98,6 +98,9 @@ a{
     font-family: MontserratMedium;
     height: 45px;
     border: 2px solid #e3e3e3;
+    color: #333;
+    line-height: 25px;
+    font-size: 16px;
 }
 ::placeholder{
   color: #f1f3f4;
@@ -119,6 +122,7 @@ a{
 .flex-container{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .margin-bottom{
   margin-bottom: 20px;
@@ -140,4 +144,47 @@ a{
   margin-bottom:5px;
   display: block;
   font-family: MontserratLight;
+}
+.height_zero{
+  height: auto;
+}
+/*addreport*/
+.flex_container{
+  display: flex;
+  align-items: baseline;
+}
+.add_report h1{
+  margin: 0;
+  margin-left: 6px;
+}
+.add_report_text{
+  font-family: montserratlight;
+    font-size: 18px;
+}
+/*leave*/
+.leave_request{
+  padding-bottom: 20px;
+}
+/*home*/
+.padding-home{
+  padding: 20px;
+}
+.admin_name{
+  text-transform: capitalize;
+  font-family: MontserratMedium;
+}
+.m-left{
+  margin-left: 5px;
+}
+.ul_list .list{
+  border-width: 50%;
+  border-bottom: 2px solid #e3e3e3;
+}
+.list-text{
+  font-family: MontserratMedium;
+  font-size: 14px;
+  color: #333;
+}
+.list-text a{
+  color: #333;
 }
