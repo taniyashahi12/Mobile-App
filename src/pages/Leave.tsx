@@ -7,7 +7,7 @@ const Leave = () =>{
 			<div className="container-padding">
 				  <div className="ion-align-center">
 				  	<div className="heading_login flex_container leave_request">
-				  		<a href="/"><IonIcon className="back-icon" name="chevron-back-outline"></IonIcon></a>
+				  		<a href="Home"><IonIcon className="back-icon" name="chevron-back-outline"></IonIcon></a>
 				  		<h1>Send Leave Request</h1>
 				  	</div>
 				  	<div className="input_ion">

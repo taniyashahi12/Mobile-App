@@ -11,7 +11,7 @@ const Login = () =>{
 				  	</div>
 				  	<div className="heading_login">
 				  		<h1>Hey,<br />Login Now.</h1>
-				  		<p>If you are new / <a href="Sign">Create New</a>/ <a href="Home">home</a></p>
+				  		<p>If you are new / <a href="Sign">Create New</a> / <a href="Home">Home</a></p>
 				  	</div>
 				  	<div className="input_ion">
 					  	<form>
