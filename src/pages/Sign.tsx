@@ -14,15 +14,15 @@ const Sign = () =>{
 		          		</div>			  		
 		      			<div className="margin-bottom">
 		      				<label className="label_name">First Name</label>
-				  			<IonInput className="form_input" type="password" value="" placeholder="Lorem"></IonInput>
+				  			<IonInput className="form_input" type="text" value="" placeholder="Lorem"></IonInput>
 				  		</div>
 				  		<div className="margin-bottom">
 				  			<label className="label_name">Last Name</label>
-				  			<IonInput className="form_input" type="password" value="" placeholder="Ipsum"></IonInput>
+				  			<IonInput className="form_input" type="text" value="" placeholder="Ipsum"></IonInput>
 				  		</div>
 				  		<div className="margin-bottom">
 				  			<label className="label_name">Email</label>
-				  			<IonInput className="form_input" type="password" value="" placeholder="xyz@kuroit.com"></IonInput>
+				  			<IonInput className="form_input" type="email" value="" placeholder="xyz@kuroit.com"></IonInput>
 				  		</div>
 				  		<div className="margin-bottom">
 				  			<label className="label_name">Enter Your Pin</label>
