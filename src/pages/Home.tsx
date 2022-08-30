@@ -6,12 +6,7 @@ import { App } from '@capacitor/app';
 const Home = () => {
 	const ionRouter = useIonRouter();
 document.addEventListener('ionBackButton', (ev) => {
-  // ev.detail.register(-1, () => {
-  //   if (!ionRouter.canGoBack()) {
-  //     App.exitApp();
-  //   }
-  // });
-  alert("g");
+       App.exitApp();
 });
 	return(
 		<IonPage>
