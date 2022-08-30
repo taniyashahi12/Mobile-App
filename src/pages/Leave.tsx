@@ -1,15 +1,16 @@
 import './Global.css';
-import {IonPage, IonInput, IonButton, IonTextarea, IonIcon} from '@ionic/react';
+import {IonPage, IonInput, IonButton, IonTextarea, IonIcon, IonContent} from '@ionic/react';
 
 const Leave = () =>{
 	return(
 		<IonPage>
-			<div className="container-padding">
-				  <div className="ion-align-center">
-				  	<div className="heading_login flex_container leave_request">
+		<div className="heading_login flex_container leave_request">
 				  		<a href="Home"><IonIcon className="back-icon" name="chevron-back-outline"></IonIcon></a>
 				  		<h1>Send Leave Request</h1>
 				  	</div>
+			<div className="container-padding">
+				  <div className="ion-align-center">
+				  	
 				  	<div className="input_ion">
 					  	<form>
 					  	<div className="margin-bottom">

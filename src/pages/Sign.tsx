@@ -5,6 +5,7 @@ import { IonIcon, IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButto
 const Sign = () =>{
 	return(
 		<IonPage>
+		<IonContent>
 		<div className="bg-color">
 			<div className="padding-all">
 	      		<form className="full_width">
@@ -35,6 +36,7 @@ const Sign = () =>{
 				</form>
       		</div>
       	</div>
+      	</IonContent>
 		</IonPage>
 		);
 };

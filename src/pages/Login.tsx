@@ -1,15 +1,19 @@
 import './Global.css';
-import { IonButton, IonInput, IonPage, IonImg } from '@ionic/react';
+import { IonContent, IonButton, IonInput, IonPage} from '@ionic/react';
+import Lottie from "lottie-react";
+import loginAnimation from "./Login.json";
 
 const Login = () =>{
 	return(
 		<IonPage>
+		<IonContent>
 			<div className="container-padding">
 				  <div className="ion-align-center">
-				  	<div className="image_logo">
+				  <Lottie className="lottie_width" animationData={loginAnimation} loop={true} />
+				  	{/*<div className="image_logo">
 				  		<IonImg className="image_width" src='./assets/images/kuroit-logo.png' />
-				  	</div>
-				  	<div className="heading_login">
+				  	</div>*/}
+				  	<div className="heading_main">
 				  		<h1>Hey,<br />Login Now.</h1>
 				  		<p>If you are new / <a href="Sign">Create New</a> / <a href="Home">Home</a></p>
 				  	</div>
@@ -26,6 +30,7 @@ const Login = () =>{
 				  	</div>
 				  </div>
 			</div>
+		</IonContent>
 		</IonPage>
 		);
 };
