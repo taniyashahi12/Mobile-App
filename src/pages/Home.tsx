@@ -8,10 +8,9 @@ const Home = () => {
 document.addEventListener('ionBackButton', (ev) => {
   // ev.detail.register(-1, () => {
   //   if (!ionRouter.canGoBack()) {
-  //     App.exitApp();
+     App.exitApp();
   //   }
   // });
-  alert("g");
 });
 	return(
 		<IonPage>
