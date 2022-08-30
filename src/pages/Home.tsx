@@ -1,7 +1,18 @@
 import './Global.css';
 import { IonGrid, IonRow, IonCol, IonPage, IonImg, IonButton, IonPopover, IonContent, IonIcon, IonProgressBar } from '@ionic/react'; 
+import { useIonRouter } from '@ionic/react';
+import { App } from '@capacitor/app';
 
 const Home = () => {
+	const ionRouter = useIonRouter();
+document.addEventListener('ionBackButton', (ev) => {
+  // ev.detail.register(-1, () => {
+  //   if (!ionRouter.canGoBack()) {
+  //     App.exitApp();
+  //   }
+  // });
+  alert("g");
+});
 	return(
 		<IonPage>
 		<IonContent>
