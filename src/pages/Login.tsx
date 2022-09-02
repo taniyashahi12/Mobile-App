@@ -18,6 +18,7 @@ const Login = () =>{
   	const ionRouter = useIonRouter();
 	document.addEventListener('ionBackButton', (ev) => {
 	App.exitApp();
+	});
 	return(
 		<IonPage>
 		<IonContent>
