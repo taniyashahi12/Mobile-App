@@ -107,7 +107,7 @@ document.addEventListener('ionBackButton', (ev) => {
 
 				<div className="ion-align-center">
 				<p className="add_report_text m-top">Expected Work</p>
-				<IonGrid className="m-20">
+				<IonGrid className="m-10">
 			      <IonRow className="main-heading table_styling">
 			        <IonCol>
 			          S/N
@@ -187,7 +187,7 @@ document.addEventListener('ionBackButton', (ev) => {
 
 				<div className="ion-align-center">
 				<p className="add_report_text m-top">Completed Work</p>
-				<IonGrid className="m-20">
+				<IonGrid className="m-10">
 			      <IonRow className="main-heading table_styling">
 			        <IonCol>
 			          S/N

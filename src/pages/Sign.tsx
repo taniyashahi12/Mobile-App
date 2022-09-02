@@ -7,12 +7,13 @@ const Sign = () =>{
 		<IonPage>
 		<IonContent>
 		<div className="bg-color">
+			<div className="heading_login flex_container leave_request">
+		  		<a href="Login"><IonIcon className="back-icon" name="chevron-back-outline"></IonIcon></a>
+		  		<h1>Sign Up</h1>
+		  	</div>
 			<div className="padding-all">
 	      		<form className="full_width">
-		      		<div className="">	
-			      		<div className="header_heading">
-			          	<h1>Sign Up</h1>
-		          		</div>			  		
+		      		<div className="">				  		
 		      			<div className="margin-bottom">
 		      				<label className="label_name">First Name</label>
 				  			<IonInput className="form_input" type="text" value="" placeholder="Lorem"></IonInput>
