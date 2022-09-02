@@ -21,18 +21,19 @@ const Login = () =>{
 			<div className="container-padding">
 				  <div className="ion-align-center">
 				  <Lottie className="lottie_width" animationData={loginAnimation} loop={true} />
-				  	<div className="heading_main">
+				  	<div className="heading_main text_center">
 				  		<h1>Hey,<br />Login Now.</h1>
 				  		<p>If you are new / <a href="Sign">Create New</a> / <a href="Home">Home</a></p>
 				  	</div>
 				  	<div className="input_ion">
 					  	<form>
-					  		<div className="form_container margin-bottom">
-					  			<label className="label_name">Enter Your Pin</label>
-					  			<IonInput className="form_input" type="password" value="" placeholder="1234"></IonInput>
+					  		<div className="form_container margin-bottom text_center flex-align">
+					  			<label className="label_name">ENTER YOUR PIN</label>
+					  			<OtpInput className="input_otp" value={otp} onChange={(e:any)=> handleChange(e)} numInputs={4} 
+					  			separator={<span>&nbsp;&nbsp;&nbsp;</span>} />
 					  		</div>
-					  		<div className="">
-					  			<label className="label_name">Enter Your Pin</label>
+					  		<div className="text_center flex-align">
+					  			<label className="label_name">ENTER YOUR TEAM CODE</label>
 					  			<OtpInput className="input_otp" value={otp} onChange={(e:any)=> handleChange(e)} numInputs={4} 
 					  			separator={<span>&nbsp;&nbsp;&nbsp;</span>} />
 					  		</div>
