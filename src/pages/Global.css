@@ -171,6 +171,7 @@ a{
   color: #000;
   margin-bottom:10px;
   display: block;
+  text-transform: uppercase;
   font-family: MontserratLight;
 }
 .height_zero{
