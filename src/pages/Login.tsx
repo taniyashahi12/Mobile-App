@@ -4,17 +4,20 @@ import { IonContent, IonButton, IonInput, IonPage} from '@ionic/react';
 import Lottie from "lottie-react";
 import loginAnimation from "./Login.json";
 import OtpInput from 'react-otp-input';
+import { useIonRouter } from '@ionic/react';
+import { App } from '@capacitor/app';
 
 const Login = () =>{
 	const [otp,setOtp] = useState<any>('');
-	// state = { otp: '' };
-  	// const handleChange = (otp: any) => setOtp(otp);
 
   	const handleChange=(otp:any)=>{
   		console.log(otp)
   		setOtp(otp)
   	}
 
+  	const ionRouter = useIonRouter();
+	document.addEventListener('ionBackButton', (ev) => {
+	App.exitApp();
 	return(
 		<IonPage>
 		<IonContent>
