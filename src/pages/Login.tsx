@@ -6,12 +6,8 @@ import loginAnimation from "./Login.json";
 import OtpInput from 'react-otp-input';
 import { useIonRouter } from '@ionic/react';
 import { App } from '@capacitor/app';
-import axios from 'axios';
 
-const baseURL = "https://report.kuroit.com/testPin.php";
-type CreateUserResponse = {
-  pin: string;
-};
+
 const Login = () =>{
 	const [otp,setOtp] = useState<any>('');
 
@@ -25,12 +21,6 @@ const Login = () =>{
 	App.exitApp();
 	});
 
-	const doLogin=async()=>{
-		await axios.post<CreateUserResponse>(baseURL, {data:{'pin':otp}}).then((response:any) => {
-     	// setPost(response.data);
-     	console.log(response);
-    });
-	}
 	return(
 		<IonPage>
 		<IonContent>
@@ -54,7 +44,7 @@ const Login = () =>{
 					  			separator={<span>&nbsp;&nbsp;&nbsp;</span>} />
 					  		</div>
 					  		<div className="register_container">
-					  			<IonButton className="register_button" onClick={()=> doLogin()} expand="block">Login</IonButton>
+					  			<IonButton className="register_button" expand="block">Login</IonButton>
 					  		</div>
 					  	</form>
 				  	</div>
