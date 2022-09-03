@@ -255,6 +255,8 @@ a{
     background: #333;
     color: #fff;
 }
-.progress_bar{
-  height:10px;
-}
+ion-progress-bar {
+    --buffer-background: #cdcdcd;
+    --progress-background: #333;
+    height:10px;
+  }
