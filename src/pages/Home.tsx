@@ -109,7 +109,7 @@ document.addEventListener('ionBackButton', (ev) => {
 				<p className="add_report_text m-top">Expected Work</p>
 				<IonGrid className="m-10">
 			      <IonRow className="main-heading table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          S/N
 			        </IonCol>
 			        <IonCol>
@@ -124,7 +124,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          1
 			        </IonCol>
 			        <IonCol>
@@ -139,7 +139,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="even table_styling">
-			       <IonCol>
+			       <IonCol size="2">
 			          2
 			        </IonCol>
 			        <IonCol>
@@ -154,7 +154,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          3
 			        </IonCol>
 			        <IonCol>
@@ -169,7 +169,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="even table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          4
 			        </IonCol>
 			        <IonCol>
@@ -189,7 +189,7 @@ document.addEventListener('ionBackButton', (ev) => {
 				<p className="add_report_text m-top">Completed Work</p>
 				<IonGrid className="m-10">
 			      <IonRow className="main-heading table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          S/N
 			        </IonCol>
 			        <IonCol>
@@ -204,7 +204,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          1
 			        </IonCol>
 			        <IonCol>
@@ -219,7 +219,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="even table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          2
 			        </IonCol>
 			        <IonCol>
@@ -234,7 +234,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="table_styling">
-			        <IonCol>
+			        <IonCol size="2">
 			          3
 			        </IonCol>
 			        <IonCol>
@@ -249,7 +249,7 @@ document.addEventListener('ionBackButton', (ev) => {
 			      </IonRow>
 
 			      <IonRow className="even table_styling">
-			       <IonCol>
+			       <IonCol size="2">
 			          4
 			        </IonCol>
 			        <IonCol>
