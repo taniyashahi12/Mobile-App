@@ -91,6 +91,7 @@ a{
 }
 .heading_main h1{
   margin-top: 0px;
+  color: #333;
 }
 .lottie_width{
   width: 70%;
@@ -102,7 +103,7 @@ a{
   font-family: MontserratExtraLight;
 }
 .heading_login a, .heading_main a{
-  color: #000;
+  color: #333;
   font-family: MontserratMedium;
   text-decoration: none;
 }
@@ -133,7 +134,7 @@ a{
 .register_button{
   height: 40px;
   margin: 0;
-  --background: #0869AE;
+  --background: #333;
 }
 .input_otp input {
     border-radius: 10px;
@@ -168,7 +169,7 @@ a{
 }
 .label_name{
   font-size: 12px;
-  color: #000;
+  color: #333;
   margin-bottom:10px;
   display: block;
   text-transform: uppercase;
@@ -185,11 +186,13 @@ a{
   margin: 0;
   margin-left: 6px;
   line-height: 50px;
+  color: #333;
 }
 .add_report_text{
   font-family: montserratMedium;
   font-size: 18px;
   margin: 0;
+  color: #333;
 }
 /*leave*/
 .leave_request{
@@ -199,6 +202,7 @@ a{
   margin: 0;
   line-height: 50px;
   margin-left: 6px;
+  color: #333;
 }
 /*home*/
 .padding-home{
@@ -207,12 +211,12 @@ a{
 .admin_name{
   text-transform: capitalize;
   font-family: MontserratMedium;
+  --background: #333;
 }
 .m-left{
   margin-left: 5px;
 }
 .ul_list .list{
-  border-width: 50%;
   border-bottom: 2px solid #e3e3e3;
 }
 .list-text{
@@ -230,7 +234,7 @@ a{
   padding: 6px;
 }
 .even{
-  background-color: #3880ff14;
+  background-color: #00000014;
 }
 .m-top{
   margin-top: 30px;
@@ -245,9 +249,10 @@ a{
   font-family: MontserratMedium;
   font-size: 14px;
   text-align: center;
+  /*color: #333;*/
 }
 .main-heading {
-    background: #3880ff;
+    background: #333;
     color: #fff;
 }
 .progress_bar{

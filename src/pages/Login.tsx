@@ -6,7 +6,12 @@ import loginAnimation from "./Login.json";
 import OtpInput from 'react-otp-input';
 import { useIonRouter } from '@ionic/react';
 import { App } from '@capacitor/app';
+import axios from 'axios';
 
+const baseURL = "https://report.kuroit.com/testPin.php";
+type CreateUserResponse = {
+  pin: string;
+};
 const Login = () =>{
 	const [otp,setOtp] = useState<any>('');
 
@@ -19,6 +24,13 @@ const Login = () =>{
 	document.addEventListener('ionBackButton', (ev) => {
 	App.exitApp();
 	});
+
+	const doLogin=async()=>{
+		await axios.post<CreateUserResponse>(baseURL, {data:{'pin':otp}}).then((response:any) => {
+     	// setPost(response.data);
+     	console.log(response);
+    });
+	}
 	return(
 		<IonPage>
 		<IonContent>
@@ -38,11 +50,11 @@ const Login = () =>{
 					  		</div>
 					  		<div className="text_center flex-align">
 					  			<label className="label_name">ENTER YOUR TEAM CODE</label>
-					  			<OtpInput className="input_otp" value={otp} onChange={(e:any)=> handleChange(e)} numInputs={4} 
+					  			<OtpInput className="input_otp" numInputs={4} 
 					  			separator={<span>&nbsp;&nbsp;&nbsp;</span>} />
 					  		</div>
 					  		<div className="register_container">
-					  			<IonButton className="register_button" type="submit" expand="block">Login</IonButton>
+					  			<IonButton className="register_button" onClick={()=> doLogin()} expand="block">Login</IonButton>
 					  		</div>
 					  	</form>
 				  	</div>

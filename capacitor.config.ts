@@ -5,8 +5,6 @@ const config: CapacitorConfig = {
   appName: 'reportMobileApp',
   webDir: 'build',
   bundledWebRuntime: false,
-  },
-
-};
+  };
 
 export default config;
